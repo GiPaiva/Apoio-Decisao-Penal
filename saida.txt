@@ -1,0 +1,95 @@
+=== SISTEMA DE APOIO À DECISÃO PENAL ===
+
+=== CASO c1 ===
+Classificação: furto
+Valor do bem: R$ 100
+Violência: nao
+Primário: sim
+Reincidente: nao
+
+PRECEDENTES APLICÁVEIS:
+  [STF] valor irrisorio e ausencia de violencia podem afastar tipicidade
+  [STJ] furto sem violencia, primariedade e pequeno valor permitem reducao
+
+DECISÃO: ABSOLVER POR INSIGNIFICÂNCIA
+FUNDAMENTOS:
+  - confissao_espontanea
+  - devolucao_bem
+  - furto_privilegiado
+  - primariedade
+  - precedente(stf,insignificancia,valor irrisorio e ausencia de violencia podem afastar tipicidade)
+  - precedente(stj,furto_privilegiado,furto sem violencia, primariedade e pequeno valor permitem reducao)
+
+=== CASO c2 ===
+Classificação: furto
+Valor do bem: R$ 80
+Violência: nao
+Primário: nao
+Reincidente: sim
+
+PRECEDENTES APLICÁVEIS:
+  [STF] valor irrisorio e ausencia de violencia podem afastar tipicidade
+  [STJ] reincidencia especifica afasta insignificancia
+
+DECISÃO: DOSIMETRIA (pena: 24 pontos)
+FUNDAMENTOS:
+  - reincidencia
+  - precedente(stf,insignificancia,valor irrisorio e ausencia de violencia podem afastar tipicidade)
+  - precedente(stj,reincidencia_afasta_insignificancia,reincidencia especifica afasta insignificancia)
+
+=== CASO c3 ===
+Classificação: roubo
+Valor do bem: R$ 2000
+Violência: sim
+Primário: sim
+
+PRECEDENTES APLICÁVEIS:
+  Nenhum precedente específico
+
+DECISÃO: DOSIMETRIA (pena: 48 pontos)
+FUNDAMENTOS:
+  - primariedade
+
+=== CASO c4 ===
+Classificação: furto_qualificado
+Valor do bem: R$ 90
+Violência: nao
+Primário: sim
+Qualificadora: rompimento_obstaculo
+
+PRECEDENTES APLICÁVEIS:
+  [STF] valor irrisorio e ausencia de violencia podem afastar tipicidade
+  [STJ] furto sem violencia, primariedade e pequeno valor permitem reducao
+
+DECISÃO: REDUZIR PENA POR PRIVILÉGIO
+FUNDAMENTOS:
+  - furto_privilegiado
+  - primariedade
+  - qualificadora(rompimento_obstaculo)
+  - precedente(stf,insignificancia,valor irrisorio e ausencia de violencia podem afastar tipicidade)
+  - precedente(stj,furto_privilegiado,furto sem violencia, primariedade e pequeno valor permitem reducao)
+
+=== CASO c5 ===
+Classificação: furto
+Valor do bem: R$ 120
+Violência: nao
+Primário: sim
+Reincidente: nao
+
+PRECEDENTES APLICÁVEIS:
+  [STF] valor irrisorio e ausencia de violencia podem afastar tipicidade
+  [STJ] furto sem violencia, primariedade e pequeno valor permitem reducao
+
+DECISÃO: ABSOLVER POR INSIGNIFICÂNCIA
+FUNDAMENTOS:
+  - furto_privilegiado
+  - primariedade
+  - precedente(stf,insignificancia,valor irrisorio e ausencia de violencia podem afastar tipicidade)
+  - precedente(stj,furto_privilegiado,furto sem violencia, primariedade e pequeno valor permitem reducao)
+
+
+=== RESUMO ===
+Total de casos: 5
+Absolvições: 1
+Reduções: 0
+Dosimetria: 0
