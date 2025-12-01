@@ -29,19 +29,19 @@ Apoio-Decisao-Penal/
 
 ## ▶️ 2. Como executar o sistema
 
-### ✔️ Requisitos
+### ✔️ Execução
 
-* Python 3.10+ instalado
-* Instalar dependências (se houver):
+Você pode excutar tanto na sua IDE preferida fazendo o git clone e executando o arquivo principal.pl
 
 ```bash
-pip install -r requirements.txt
+swipl -s principal.pl
 ```
 
-### ✔️ Execução direta
+Como tambem pode ir pelo SWI Prolog (app)
+e consultar o arquivo prinicpal.pl
 
 ```bash
-python main.py
+?- consult('principal.pl').
 ```
 
 Você poderá:
@@ -54,7 +54,7 @@ Você poderá:
 
 ## 🧩 3. Como usar arquivos de entrada e saída
 
-### 🔹 **Arquivo de entrada (JSON)**
+### 🔹 **Arquivo de entrada**
 
 Um arquivo de entrada contém as características do caso, por exemplo:
 
@@ -70,7 +70,7 @@ Um arquivo de entrada contém as características do caso, por exemplo:
 
 ### 🔹 **Arquivo de saída (gerado)**
 
-O sistema gera um JSON explicando:
+O sistema gera um explicando:
 
 * Qual regra foi ativada
 * Qual resultado foi inferido
